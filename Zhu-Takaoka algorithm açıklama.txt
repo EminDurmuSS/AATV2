@@ -1,0 +1,5 @@
+Zhu-Takaoka algorithm, graf çizimi probleminde bir düğümün tüm çevresindeki düğümlerden en az bir kez geçerek çizilebilen en küçük dikdörtgen alanı bulmak için kullanılan bir algoritmadır. Bu algoritma, hem en iyi durumda hem de en kötü durumda lineer bir zamana sahiptir.
+
+Zhu-Takaoka algoritması, iki adımdan oluşur: öncelikle, grafın en sağ alt düğümü tespit edilir ve bu düğüm silinir. Daha sonra, silinmiş düğüme kadar olan her düğümün yanındaki düğümlere ait x ve y koordinatları saklanır. Daha sonra, silinmiş düğüme kadar olan tüm düğümler, x koordinatlarına göre sıralanır ve y koordinatlarına göre tarama yapılarak en küçük dikdörtgen alan bulunur.
+
+Zhu-Takaoka algoritmasının en iyi durumda sınırları, O(n) 'dir, burada n, düğümlerin sayısıdır. En kötü durumda, sınırları O(n^2)'dir, ancak bu durumun gerçekleşme olasılığı oldukça düşüktür. Ortalama durumda, sınırlar O(n log n) 'dir.
